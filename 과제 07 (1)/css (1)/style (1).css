@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.box{width: 800px; height: 800px;border: 1px solid black; position: relative; margin: 0 auto; top: 50px;}
+.lt{width: 350px; height: 150px; border: 1px solid black; position: absolute; left: 0px;}
+.lm{width: 350px; height: 350px; border: 1px solid black; position: absolute; top: 150px;}
+.lb{width: 350px; height: 300px; border: 1px solid black; position: absolute;bottom: 0px; background-color: green;}
+.mt{width: 150px; height: 250px; border: 1px solid black; position: absolute; left: 350px; background-color: red;}
+.mm{width: 150px; height: 250px; border: 1px solid black; position: absolute;left: 350px;top: 250px; background-color: yellow;}
+.mb{width: 300px; height: 300px; border: 1px solid black; position: absolute;left: 350px;bottom: 0px;}
+.rt{width: 300px; height: 350px; border: 1px solid black; position: absolute;right: 0px; background-color: blue;}
+.rm{width: 300px; height: 150px; border: 1px solid black; position: absolute; right: 0px;top: 350px;}
+.rb{width: 150px; height: 300px; border: 1px solid black; position: absolute; right: 0px; bottom: 0px; background-color: orange;}

@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0%; box-sizing: border-box;}
+.slide{animation: slide 10s linear infinite .3s; display: flex; width:800px; height: 450px; }
+.imgslide{margin: 0 auto; overflow: hidden; width:800px; height: 450px; border: 1px solid black;}
+.slide>div{flex: 1;}
+
+
+@keyframes slide {
+    0%{margin-left:0%;}
+    30%{margin-left: 0%;}
+    33%{margin-left: -100%;}
+    63%{margin-left: -100%;}
+    66%{margin-left: -200%;}
+    96%{margin-left: -200%;}
+    99.99999%{margin-left: -300%;}
+    100% {margin-left: 0%;}
+}

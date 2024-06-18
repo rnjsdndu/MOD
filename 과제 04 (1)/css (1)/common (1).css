@@ -1,0 +1,42 @@
+*{
+    margin: 0%; padding: 0%; box-sizing: border-box;
+}
+header{
+    height: 120px;
+    background-color: beige;
+}
+div{
+    display: flex;
+}
+nav{
+    flex: .3;
+    background-color: rgba(0, 0, 255, 0.437);
+    height: 710px;
+   
+}
+article{
+    background-color: aquamarine;
+    flex: 1;
+    height: 710px;
+}
+aside{
+    flex: .3;
+    background-color: rgba(0, 0, 255, 0.437);
+
+}
+footer{
+    height: 120px;
+    background-color: beige;
+}
+
+@media (max-width:600px){
+    div{flex-direction:column;}
+    article{
+        order: -1;
+        flex: auto;
+    }
+    header{height: auto;}
+    footer{height: auto;}
+    
+    
+}

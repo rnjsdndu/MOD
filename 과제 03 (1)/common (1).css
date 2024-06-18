@@ -1,0 +1,54 @@
+header{background-color: rgb(215, 218, 222); height: 120px; position: relative;}
+.logo {position: relative; left: 350px; top: 20px;}
+.sub{position:relative; left: 1000px; bottom: 70px; display: flex;}
+.search{position: relative; border: 1px solid black;width: 30px; height: 30px; border-radius: 20%; text-align: center; left: 10px; background-color: aliceblue;}
+.search>img{width: 30px; height: 30px;}
+.sub>p{border-right: 1px solid gray; padding-right:15px; padding-left: 15px; position: relative; top: -13px; border-radius: 6%;}
+.one{display: flex;position: relative;}
+nav{display: flex; position: absolute; top: 50px; right: 300px;}
+nav > span>p{ padding-right:15px; padding-left: 15px;}
+
+/* .parent { 
+    position: relative;
+    background-color: pink; 
+    width: 500px; 
+    height: 500px;
+}
+.parent .children { 
+    position: absolute;
+    background-color: #33c8f3;  
+    width: 100px; 
+    height: 100px;
+    right: 10px;
+    bottom: 10px;
+ } 
+
+.static {
+    position: static;
+}
+.relative {
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+.absolute {
+    position: absolute;
+    left: 50px;
+    top: 5px;
+}
+.fixed {
+    position: fixed;
+    left: 50px;
+    top: 5px;
+}
+
+.sticky {
+    position: sticky;
+} */
+
+/* .cover { */
+/*     position: fixed; */
+/*     background-color: black; */
+/*     top: 100px; left: 100px; */
+/*     bottom: 100px; right: 100px; */
+/* } */

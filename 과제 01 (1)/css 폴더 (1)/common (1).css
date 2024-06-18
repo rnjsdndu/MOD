@@ -1,0 +1,7 @@
+header{ width: 100%; height: 150px;font-size: 40px;line-height: 150px; text-align: center; margin: 20px auto 20px auto; background-color: red; border: solid 3px black; color: aliceblue;}
+nav{width: 100%; height: 100px;font-size: 40px;line-height: 100px; text-align: center;  margin: 20px auto 20px auto; background-color: blue; border: solid 3px black; color: aliceblue;}
+section{width:70%; height: 400px;font-size: 40px; text-align: center;  background-color: yellow; border: solid 3px black; margin-right:50px; color: rgb(152, 158, 163);}
+article{ margin: 40px auto 20px auto; border: solid 3px black; line-height: 100px; background-color: yellowgreen;height: 100px; width: 90%; color: aliceblue;}
+div{display: flex;}
+aside{width: 30%; height: 400px;font-size: 40px; text-align: center; background-color: gray; border: solid 3px black; color: aliceblue;}
+footer{width: 100%; line-height: 150px; background-color:darkgreen; height: 150px; margin-top:20px; font-size: 40px; text-align: center; border: solid 3px black; color: aliceblue;}

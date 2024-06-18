@@ -1,0 +1,259 @@
+*{
+    margin: 0%; padding: 0; box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+a{
+    display: block;
+}
+ul,li{
+    list-style: none;
+}
+.box{
+    position: absolute;
+}
+.box>ul{
+    display: flex;
+}
+.box>ul>li>a{
+    background-color: #dcdcdc;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+}
+.box>ul>li>ul>li{
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #dcdcdc;
+}
+.box > ul > li{
+    /* height: 50px;
+    overflow: hidden; */
+}
+.box > ul > li > ul{
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+.box>ul>li:hover>ul{
+    height: 200px;
+}
+.box>ul>li>a:hover{
+    background-color: #a2a2a2;
+    transition: .3s;
+}
+.box>ul>li>ul li:hover{
+    background-color: #a2a2a2;
+    transition: .3s;
+}
+.box > ul > li:hover :where(ul>li, li> a){
+    background-color: #a2a2a2;
+}
+.box > ul > li > ul > li > a:hover{
+    background-color: #888;
+}
+/* --------------------------------------------------------- */
+.box2{
+    position: absolute;
+    top:400px
+}
+.box2>ul{
+    display: flex;
+}
+.box2>ul>li>a{
+    background-color: #dcdcdc;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+}
+.box2>ul>li>ul>li{
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #dcdcdc;
+}
+.box2 > ul > li{
+    /* height: 50px;
+    overflow: hidden; */
+}
+.box2 > ul > li > ul{
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+.box2>ul:hover ul{
+    height: 200px;
+}
+.box2>ul>li>a:hover{
+    background-color: #888;
+    transition: .3s;
+}
+.box2>ul>li>ul li:hover{
+    background-color: #888;
+    transition: .3s;
+}
+.box2>ul>li:hover a{
+    background-color: #a2a2a2;
+}
+.box2>ul>li>ul>li>a:hover{
+    background-color: #888;
+}
+/* ----------------------------------------------------------- */
+.box3{
+    position: absolute;
+    top:700px
+}
+.box3>ul>li>a{
+    background-color: #dcdcdc;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+}
+.box3>ul>li>ul>li{
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #dcdcdc;
+}
+.box3 > ul > li{
+    /* height: 50px;
+    overflow: hidden; */
+}
+.box3 > ul > li > ul{
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+.box3>ul>li:hover > ul{
+    height: 200px;
+}
+.box3>ul>li>a:hover{
+    background-color: #888;
+    transition: .3s;
+}
+.box3>ul>li>ul li:hover{
+    background-color: #888;
+    transition: .3s;
+}
+.box3>ul>li:hover a{
+    background-color: #a2a2a2;
+}
+.box3>ul>li>ul>li>a:hover{
+    background-color: #888;
+}
+/* ---------------------------------------------------------- */
+.box4{
+    position: absolute;
+    top:1600px
+}
+.box4>ul>li>a{
+    background-color: #dcdcdc;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+}
+.box4>ul>li>ul>li{
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #dcdcdc;
+}
+.box4 > ul > li{
+    /* height: 50px;
+    overflow: hidden; */
+}
+.box4 > ul > li > ul{
+    width: 0px;
+    overflow: hidden;
+    transition: .4s;
+}
+.box4 > ul > li{
+    position: relative;
+}
+.box4 > ul > li > ul{
+    position: absolute;
+    top:0px;
+    left: 150px;
+}
+.box4>ul> li:hover ul{
+    width: 150px;
+}
+.box4>ul>li>a:hover{
+    background-color: #888;
+    transition: .3s;
+}
+.box4>ul>li>ul>li:hover{
+    background-color: #888;
+    transition: .3s;
+}
+.box4>ul>li:hover a{
+    background-color: #a2a2a2;
+}
+.box4>ul>li>ul>li>a:hover{
+    background-color: #888;
+}
+
+
+
+
+.box5{
+    position: absolute;
+    top:2000px;
+    right: 0px;
+}
+.box5>ul{
+    display: flex;
+}
+.box5 > ul{
+    
+}
+.box5 > ul > li > ul{
+    width: ;
+}
+.box5>ul>li>a{
+    background-color: #dcdcdc;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+}
+.box5>ul>li>ul>li{
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #dcdcdc;
+}
+.box5 > ul > li{
+    /* height: 50px;
+    overflow: hidden; */
+}
+.box5 > ul > li > ul{
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+.box5>ul:hover ul{
+    height: 200px;
+
+}
+.box5>ul>li>a:hover{
+    background-color: #888;
+    transition: .3s;
+}
+.box5>ul>li>ul li:hover{
+    background-color: #888;
+    transition: .3s;
+}
+.box5>ul>li:hover a{
+    background-color: #a2a2a2;
+}
+.box5>ul>li>ul>li>a:hover{
+    background-color: #888;
+}
+
+
+body{
+    height: 300vh;
+}
